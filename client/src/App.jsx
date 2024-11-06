@@ -4,7 +4,7 @@ import { NewsContextProvider } from "../contexts/NewsContext";
 import Navbar from "./components/Navbar";
 import NewsPage from "./components/News";
 
-const API_BASE_URL = "https://newsapp-qvsw.onrender.com";
+const API_BASE_URL = "https://news4u-pt82.onrender.com";
 
 const App = () => {
   const [newsItems, setNewsItems] = useState([]);
