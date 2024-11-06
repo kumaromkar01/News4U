@@ -3,12 +3,12 @@ import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base : "/NewsApp/",
+  base : "/News4U/",
   plugins: [react()],
   server: {
     proxy: {
       '/api': {
-        target: 'https://newsapp-qvsw.onrender.com',
+        target: 'https://news4u-pt82.onrender.com',
         changeOrigin: true,
         secure: false,
       },
